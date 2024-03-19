@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Pontano+Sans:wght@300..700&display=swap');
+
+body {
+    background-color: rgb(255, 171, 14);
+}
+.header {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.header_logo {
+    height: 40px;
+    width: auto;
+}
+.header_title {
+    color: white;
+    font-family: "Pontano Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.product {
+    opacity: 100%;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product_profile {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.product_profile_img {
+    width: 100%;
+    height: 100%;
+}
+.product_info {
+    margin-top: -70px;
+    translate: 0px 70px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 60%;
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    transition: ease 1s;
+}
+.product:hover > .product_info {
+    translate: 0px 0px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 60%;
+    background-color: black;
+    width: 200px;
+    height: 70px;
+}
+.product_name {
+    font-family: "Pontano Sans", sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+.product_tags {
+    display: flex;
+    width: 100%;
+    height: 25px;
+}
+.product_tags_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 55px;
+    height: 100%;
+    background-color: rgb(92, 92, 255);
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.product_tags_tag_price {
+    display: flex;
+    font-family: "Pontano Sans", sans-serif;
+    color: white;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 15px;
+}
+.product_tags_tag_status {
+    display: flex;
+    font-family: "Pontano Sans", sans-serif;
+    color: white;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 15px;
+}
